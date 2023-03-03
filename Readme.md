@@ -55,11 +55,10 @@ exports.actions = [
   {
     title: "ChatGPT: summary zh",
     icon: "square filled 总",
-    after: "show-result",
+    after: "copy-result",
     code: async (input, options) => chat(input, options, "zh"),
   },
 ];
-
 ```
 
 ![fGi06N](https://cdn.jsdelivr.net/gh/klaaay/pbed@main/uPic/fGi06N.jpg)

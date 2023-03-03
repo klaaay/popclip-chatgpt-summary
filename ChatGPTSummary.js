@@ -46,7 +46,7 @@ exports.actions = [
   {
     title: "ChatGPT: summary zh",
     icon: "square filled 总",
-    after: "show-result",
+    after: "copy-result",
     code: async (input, options) => chat(input, options, "zh"),
   },
 ];
