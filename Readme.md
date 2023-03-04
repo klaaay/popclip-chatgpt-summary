@@ -37,7 +37,7 @@ async function chat(input, options, lang) {
       messages = [
         {
           role: "user",
-          content: `总结下面的文本信息:\n${input.text}`,
+          content: `用中文总结下面的文本信息:\n${input.text}`,
         },
       ];
       break;
